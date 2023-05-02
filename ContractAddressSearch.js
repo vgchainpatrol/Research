@@ -1,4 +1,4 @@
-async function scanWebsite() {
+export async function scanWebsite() {
   // Get the user input from a form or prompt dialog
   let website = prompt("Please enter a website URL or domain name:");
 
